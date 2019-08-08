@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
+
+body {
+    font: normal normal bold 1.5em "Lucida Sans Unicode";
+	margin: 0;
+	padding: 0;
+    width: 500px;
+    box-sizing: border-box;
+    background-color: Indigo;
+    color: white;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin: 25px;
+    color: white;
+}
+
+.container-numbers {
+    display: flex;
+    flex-flow: column wrap;
+    position: relative;
+    width: 30%;
+}
+
+.container-buttons {
+    display: block;
+    flex-flow: column wrap;
+    align-content: space-around;
+}
+
+button {
+    background-color: DarkOrange;
+    border: 1.3px solid black;
+    font: bold 1.2em "Lucida Sans Unicode";
+    height: 50px;
+    width: 50%;
+    color: white;
+}
+
+#btn-clear {
+    height: 100%;
+    width: 100%;
+    font-family: 'Indie Flower', cursive;
+}
+
+p {
+    margin: -10%;
+}
+
+input {
+	border: 2px solid DarkOrange;
+	font: normal normal bold 1.2em "Lucida Sans Unicode";
+	text-align: center;
+    width: 90%;
+    background-color: Indigo;
+    margin-top: 7%;
+    color: white;
+}
+
+#resultado {
+    border: 2px solid DarkOrange;
+	font: normal normal bold 1.2em "Lucida Sans Unicode";
+	text-align: center;
+    height: 23%;
+    width: 90%;
+    margin-top: 15%;
+    color: white;
+}
+
+h1 {
+    font-family: 'Indie Flower', cursive;
+    width: 90%;
+    margin: 5% 3%;
+    border: 1px dashed white;
+    text-align: center;
+}
+
+#error {
+    margin: 0 20%;
+    text-align: center;
+}
+
+button:hover {
+	background-color: White;
+	color: black;
+    transition: all 0.5s;
+	cursor: pointer;
+}
+
+button:active {
+	background-color: DimGray;
+}
+
+button:focus, input:focus {
+	outline:none;
+}
